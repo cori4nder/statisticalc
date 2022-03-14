@@ -23,7 +23,7 @@ while keyIn != "1" or keyIn != "2":
         values = input("Insira os valores: ").split(", ")
         lst = list(map(float, np.array(values)))
 
-        amplitude = lst.max() - lst.min
+        amplitude = lst.max() - lst.min()
         variancia = lst.var
         desvio_padrao = lst.std()
         desvio_absoluto = lst.mad()
