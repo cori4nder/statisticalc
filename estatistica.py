@@ -37,12 +37,3 @@ while keyIn != "1" or keyIn != "2":
 # print(lst)
 # print(type(values))
 # print(values)
-
-# while True:
-#     for i in range(0, values):
-#         num = float(input())
-
-#         lst.append(num)
-
-#         if num != int or num != float:
-#             break
