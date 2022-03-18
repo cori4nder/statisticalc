@@ -49,5 +49,5 @@ while keyIn != "1" or keyIn != "2":
         print(f"\n      Coeficiente de Variação -> [{cv:.2f}]")
 
     else:
-        print("Digite uma entrada válida!")
+        print("      Digite uma entrada válida!")
         keyIn = input("\n      Qual opção? -> ")
